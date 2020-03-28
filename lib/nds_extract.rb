@@ -13,7 +13,15 @@ pp directors_database[0][:movies][0][:worldwide_gross]
   #  i += 1
  #end
 # end
-
+  #{
+   #     "Stephen Spielberg"=>1357566430,
+    #  "Spike Lee"=>256624217,
+     #   "Wachowski Siblings"=>806180282,
+      #  "Robert Zemeckis"=>1273838385,
+       # "Quentin Tarantino"=>662738268,
+        #"Martin Scorsese"=>636812242,
+        #"Francis Ford Coppola"=>509719258
+      #}
 
 #director = directors_database[i][:name]
 #gross = directors_database[i][:movies][i2][worldwide_gross]
@@ -21,7 +29,10 @@ pp directors_database[0][:movies][0][:worldwide_gross]
 def directors_totals(nds)
    total = {}
    i = 0
-   while i < nds.length do 
+   while i < nds.length do
+     director = nds[i][:name]
+     i += 1 
+     
 end
  
 
