@@ -18,7 +18,7 @@ pp directors_database[0][:movies][0][:worldwide_gross]
 #gross = directors_database[i][:movies][i2][worldwide_gross]
 
 def directors_totals(nds)
-   total
+   total = {}
 end
  
 
