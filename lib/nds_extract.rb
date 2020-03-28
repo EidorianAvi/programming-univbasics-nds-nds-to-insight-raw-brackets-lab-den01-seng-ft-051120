@@ -3,7 +3,7 @@ require 'directors_database'
 require 'pp' 
 
 pp directors_database[0][:movies][0][:worldwide_gross]
-
+#director = directors_database[i][:name]
 
 #def print_first_directors_movie_titles
  #   i = 0
