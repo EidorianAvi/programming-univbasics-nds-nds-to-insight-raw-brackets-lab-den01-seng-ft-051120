@@ -44,7 +44,7 @@ def directors_totals(nds)
   return total 
 end
  
-#bing.
+#binding.pry requires you to 'require' it like pp but then allows you to play with how your variables are turning out. 
 
 
 
