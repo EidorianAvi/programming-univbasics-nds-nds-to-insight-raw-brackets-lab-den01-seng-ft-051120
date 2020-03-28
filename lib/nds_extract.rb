@@ -19,6 +19,8 @@ pp directors_database[0][:movies][0][:worldwide_gross]
 
 def directors_totals(nds)
    total = {}
+   i = 0
+   while i < nds.length do 
 end
  
 
