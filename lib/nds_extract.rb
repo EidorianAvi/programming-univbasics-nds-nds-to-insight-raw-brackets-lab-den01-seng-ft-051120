@@ -1,7 +1,7 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 require 'pp' 
-
+require 'pry'
 pp directors_database[0][:movies][0][:worldwide_gross]
 
 
@@ -31,7 +31,9 @@ def directors_totals(nds)
    i = 0
    while i < nds.length do
      director = nds[i][:name]
+     binding.pry
      i += 1 
+   end
      
 end
  
