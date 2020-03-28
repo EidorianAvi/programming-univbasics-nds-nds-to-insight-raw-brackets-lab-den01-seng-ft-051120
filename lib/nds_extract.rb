@@ -44,7 +44,7 @@ def directors_totals(nds)
   return total 
 end
  
-
+#bing.
 
 
 
