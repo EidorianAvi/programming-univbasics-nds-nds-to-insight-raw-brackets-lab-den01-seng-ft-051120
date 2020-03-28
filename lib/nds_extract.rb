@@ -2,7 +2,7 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 require 'pp' 
 
-pp directors_database[0][:movies][0]
+pp directors_database[0][:movies][0][:worldwide_gross]
 
 
 #def print_first_directors_movie_titles
