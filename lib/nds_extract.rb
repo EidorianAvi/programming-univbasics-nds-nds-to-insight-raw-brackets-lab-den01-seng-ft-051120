@@ -33,6 +33,8 @@ def directors_totals(nds)
      director = nds[i][:name]
      binding.pry
      total[director] = 0
+     i2 = 0
+     while i2 
      i += 1 
    end
      
