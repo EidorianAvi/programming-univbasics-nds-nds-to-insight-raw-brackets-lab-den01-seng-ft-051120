@@ -3,7 +3,7 @@ require 'directors_database'
 require 'pp' 
 
 pp directors_database[0][:movies][0][:worldwide_gross]
-#director = directors_database[i][:name]
+
 
 #def print_first_directors_movie_titles
  #   i = 0
@@ -14,6 +14,8 @@ pp directors_database[0][:movies][0][:worldwide_gross]
  #end
 # end
 
+#director = directors_database[i][:name]
+#gross = directors_database[i][:movies][i2]
 
 def directors_totals(nds)
    total
