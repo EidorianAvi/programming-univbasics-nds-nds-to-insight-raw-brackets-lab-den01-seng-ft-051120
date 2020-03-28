@@ -36,7 +36,7 @@ def directors_totals(nds)
      while i2 < nds[i][:movies].length do 
        gross = nds[i][:movies][i2][:worldwide_gross]
       binding.pry
-       total[director] = gross
+       total[director] +=  gross
        i2 += 1
      end
      i += 1 
