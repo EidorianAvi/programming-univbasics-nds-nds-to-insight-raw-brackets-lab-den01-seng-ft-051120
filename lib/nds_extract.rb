@@ -34,7 +34,9 @@ def directors_totals(nds)
      binding.pry
      total[director] = 0
      i2 = 0
-     while i2 
+     while i2 < nds[i][:movies].length do 
+       
+     end
      i += 1 
    end
      
